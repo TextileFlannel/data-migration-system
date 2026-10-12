@@ -1,0 +1,22 @@
+# Go
+/dms
+*.exe
+*.test
+*.out
+
+# Артефакты пайплайна
+/train.csv
+/profile.json
+/plan.json
+/models/*.txt
+/testdata/docs.jsonl
+/testdata/labels.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
